@@ -10,8 +10,8 @@ android {
     defaultConfig {
         minSdkVersion 19
         targetSdkVersion 25
-        versionCode 2
-        versionName "1.5"
+        versionCode 3
+        versionName "2.0.0"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
@@ -38,7 +38,7 @@ publish {
     userOrg = 'yinzihaoos'//bintray.com用户名
     groupId = 'com.yinzihao'//jcenter上的路径
     artifactId = 'YinImageView'//项目名称
-    publishVersion = '1.5.0'//版本号
+    publishVersion = '2.0.0'//版本号
     desc = 'an android imageView library'//描述，不重要
     website = 'https://github.com/YinZiHao1994/YinImageView'//网站，不重要；尽量模拟github上的地址，例如我这样的；当然你有地址最好了
 }
@@ -46,4 +46,4 @@ publish {
 //把库上传到jcenter的命令
 //windows: gradlew clean build bintrayUpload   -PbintrayUser=xxx   -PbintrayKey=xxx   -PdryRun=false
 
-//osX:  ./gradlew clean build bintrayUpload   -PbintrayUser=yinzihaoos   -PbintrayKey=xxx   -PdryRun=false
+//osX:  ./gradlew clean build bintrayUpload   -PbintrayUser=yinzihaoos   -PbintrayKey=f3a9bd7e8eb569ee6aedadeee23813cdc6d57e06   -PdryRun=false

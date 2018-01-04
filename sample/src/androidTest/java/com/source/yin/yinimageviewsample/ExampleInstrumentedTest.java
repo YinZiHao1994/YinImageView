@@ -1,4 +1,4 @@
-package yin.source.com.yinimageviewsample;
+package com.source.yin.yinimageviewsample;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

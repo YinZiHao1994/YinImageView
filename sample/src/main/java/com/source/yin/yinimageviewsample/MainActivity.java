@@ -1,4 +1,4 @@
-package yin.source.com.yinimageviewsample;
+package com.source.yin.yinimageviewsample;
 
 import android.content.Intent;
 import android.os.Bundle;

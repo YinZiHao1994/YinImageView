@@ -1,4 +1,4 @@
-package yin.source.com.yinimageview;
+package com.source.yin.yinimageview;
 
 import org.junit.Test;
 

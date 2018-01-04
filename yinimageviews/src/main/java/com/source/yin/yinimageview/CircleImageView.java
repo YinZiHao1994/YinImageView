@@ -1,4 +1,4 @@
-package yin.source.com.yinimageview;
+package com.source.yin.yinimageview;
 
 import android.content.Context;
 import android.content.res.TypedArray;
