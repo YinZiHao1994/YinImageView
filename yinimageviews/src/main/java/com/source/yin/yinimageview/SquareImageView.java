@@ -29,9 +29,13 @@ public class SquareImageView extends android.support.v7.widget.AppCompatImageVie
         int measuredWidth = getMeasuredWidth();
         int measuredHeight = getMeasuredHeight();
 
-        if (measuredWidth != measuredHeight) {
-            int max = Math.min(measuredWidth, measuredHeight);
-            setMeasuredDimension(max, max);
+        int squareSide;
+        //避免当 UNSPECIFIED 等情况时取到最小值为0的情况
+        if (measuredWidth <= 0 || measuredHeight <= 0) {
+            squareSide = Math.max(measuredWidth, measuredHeight);
+        } else {
+            squareSide = Math.min(measuredWidth, measuredHeight);
         }
+        setMeasuredDimension(squareSide, squareSide);
     }
 }
