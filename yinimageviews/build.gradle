@@ -9,8 +9,8 @@ android {
     defaultConfig {
         minSdkVersion 16
         targetSdkVersion 26
-        versionCode 6
-        versionName "2.0.3"
+        versionCode 7
+        versionName "2.1.0"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
@@ -31,8 +31,8 @@ dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.android.support:appcompat-v7:26.1.0'
     testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'com.android.support.test:runner:1.0.1'
-    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 }
 
 //bintray-release 插件 把库上传到jcenter的相关配置。
@@ -40,7 +40,7 @@ publish {
     userOrg = 'yinzihaoos'//bintray.com用户名
     groupId = 'com.yinzihao'//jcenter上的路径
     artifactId = 'YinImageView'//项目名称
-    publishVersion = '2.0.3'//版本号
+    publishVersion = '2.1.0'//版本号
     desc = 'an android imageView library'//描述，不重要
     website = 'https://github.com/YinZiHao1994/YinImageView'//网站，不重要；尽量模拟github上的地址，例如我这样的；当然你有地址最好了
 }
