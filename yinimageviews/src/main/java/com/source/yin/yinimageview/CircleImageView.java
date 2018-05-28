@@ -58,9 +58,6 @@ public class CircleImageView extends android.support.v7.widget.AppCompatImageVie
         circlePaint = new Paint();
         circlePaint.setAntiAlias(true);//抗锯齿
         circlePaint.setStrokeWidth(12);//设置圆边界宽度
-        //附加效果设置阴影
-        this.setLayerType(LAYER_TYPE_SOFTWARE, circlePaint);
-        circlePaint.setShadowLayer(13.0f, 5.0f, 5.0f, Color.GRAY);
 
         //给图形加边框
         circleBorderPaint = new Paint();
